@@ -34,11 +34,18 @@ print(b.count(6))
 b.insert(1,4)
 print(b)
 
+
 # 7.extend -> used to concat two lists
 x=[1,2,3]
 y=[7,8,9]
 x.extend(y) # x ra y concat garna 
 print("x is ",x)
+
+# 8. pop 
+l=[10,20,30,40] 
+length=len(l)
+l.pop(length-1)
+print("pop example",l)
 
 # another way of concatinating two lists 
 

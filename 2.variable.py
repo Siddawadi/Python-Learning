@@ -1,4 +1,5 @@
 # a container to store some sort of data 
+#  data types-> it tells what type of value a container is holding 
 
 # types of data types 
 
@@ -41,9 +42,9 @@ print(tuple[0][0]) # parrot
 
 # 4. Mapped data type : dict
 # dict -> it is a data type which stores data in key value pair 
-dict1={
-    { "name":"sid","course":"bca","semester":"6th"},
-     { "name":"aayush","course":"bim","semester":"6th"},
+dict1 = [
+    {"name": "sid", "course": "bca", "semester": "6th"},
+    {"name": "aayush", "course": "bim", "semester": "6th"}
+]
 
-
-}
+print(dict1)
